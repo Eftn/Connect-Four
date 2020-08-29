@@ -47,9 +47,8 @@ function makeHtmlBoard() {
 }
 
 // this function checks to see if the targeted  row is filled
-// if this is filled then it will return null
-// if its not filled then it will add a marker to the game
-
+// if this isnt filled then it will return null
+// if is  filled then it will return y.
 function findSpotForCol(x) {
 	for (let y = HEIGHT - 1; y >= 0; y--) {
 		if (!board[y][x]) {
