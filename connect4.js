@@ -47,8 +47,8 @@ function makeHtmlBoard() {
 }
 
 // this function checks to see if the targeted  row is filled
-// if this isnt filled then it will return null
-// if is  filled then it will return y.
+// if this isnt filled then it will return y
+// if is  filled then it will return null.
 function findSpotForCol(x) {
 	for (let y = HEIGHT - 1; y >= 0; y--) {
 		if (!board[y][x]) {
